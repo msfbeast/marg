@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MARG: Monsoon Audit of Road Guarantees</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<link rel="stylesheet" href="style.css?v=26">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 9 L13 9 M3 15 L17 15 M7 21 L21 21 M11 27 L27 27" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="25" cy="9" r="3.2" fill="#FF7A1A"/></svg>
+    <span class="name">MARG</span><span class="byline">Monsoon Audit of Road Guarantees · Mumbai</span>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button data-tab="trail" class="on">Money trail</button>
+    <button data-tab="audit">Auditor</button>
+    <button data-tab="cards">Scorecards</button>
+    <button data-tab="plan">Next rupee</button>
+    <button data-tab="ask">My complaint</button>
+  </nav>
+  <div class="tools">
+    <button class="storybtn" id="story-btn">▶ Play the story</button>
+    <label class="pill sel role"><select id="role-sel" aria-label="View as">
+      <option value="">View as: everyone</option>
+      <option value="citizen">View as: citizen</option>
+      <option value="officer">View as: ward officer</option>
+      <option value="corporator">View as: corporator</option>
+      <option value="contractor">View as: contractor</option>
+    </select></label>
+    <label class="pill sel"><select id="ward-sel" aria-label="Ward"></select></label>
+    <form id="find" class="search"><input id="find-q" placeholder="Complaint or job id" aria-label="Find a complaint or work order" autocomplete="off"><button aria-label="Search">⌕</button></form>
+    <span class="claude" id="c-status"></span>
+  </div>
+</header>
+
+<div class="stage">
+  <aside class="rail" id="rail"></aside>
+  <section class="mapwrap" id="mapwrap">
+    <div id="map"></div>
+    <div class="maptitle" id="maptitle"></div>
+    <div class="legend glass" id="legend"></div>
+    <div class="fcard glass" id="fcard" hidden></div>
+    <section class="dock glass" id="dock"></section>
+  </section>
+</div>
+<div class="overlay" id="overlay" hidden></div>
+<p class="synthetic">Repair data is synthetic (Claude Impact Lab Mumbai). Contractors are fictional. Not BMC data. Basemap © OpenStreetMap contributors &middot; <span id="bm-credit">OpenFreeMap</span>.</p>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="app.js?v=33"></script>
+<script src="roles.js?v=31"></script>
+<script src="visuals.js?v=21"></script>
+</body>
+</html>

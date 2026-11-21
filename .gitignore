@@ -1,0 +1,17 @@
+.env
+.venv/
+usage.jsonl
+__pycache__/
+deploy/.vercel
+
+*.mp4
+*.wav
+data/data/.git-bak
+app/static_stickerbook_backup/
+deploy/.env.local
+data/
+*.aiff
+amay_beat1.mp3
+video/node_modules/
+video/frames*/
+video/out/

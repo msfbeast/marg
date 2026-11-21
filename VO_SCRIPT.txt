@@ -1,0 +1,51 @@
+पैंतीस बार।
+Kurla की एक 500 meter road।
+एक ही monsoon में पैंतीस बार repair हुई।
+तीस लाख रुपये खर्च हुए।
+और सबसे बड़ी बात? ये road guarantee में थी।
+BMC को एक रुपया भी नहीं देना था।
+
+आपके साथ भी हुआ होगा।
+रास्ते में गड्ढा दिखा, complaint डाली।
+दो दिन में patch लग गया।
+अगले हफ्ते, वही गड्ढा वापस।
+Data में एक post है: "Pothole is back, quality कौन check करता है?"
+सच बोलूँ? कोई नहीं।
+
+इसलिए मैंने बनाया MARG।
+Monsoon Audit of Road Guarantees।
+मार्ग, यानी रास्ता।
+Complaint से लेकर contractor के bill तक, MARG हर रुपया track करता है।
+
+पूरे monsoon में तेरह करोड़ खर्च हुए।
+इसमें से तीन करोड़ पैंतीस लाख पर सवाल है।
+Guarantee वाली roads पर payment।
+एक ही काम के दो bill।
+और rate card से कहीं ज़्यादा charge।
+Timeline चलाओ: बारिश बढ़ती है, repairs भी बढ़ते हैं।
+और देखो: सिर्फ पचास roads पर आधा budget चला गया।
+Fix करो, टूटेगा, फिर fix करो।
+
+लेकिन मैं बिना सबूत के blame नहीं कर रहा।
+हर flag के पीछे proof है: rate card का हिसाब और contract की dates।
+Contractors को fair तरीके से judge किया है:
+उनकी roads, बारिश और flood risk देखकर।
+Deccan Paving ने उम्मीद से अच्छा काम किया।
+Mahalaxmi Civil के अड़तीस percent fixes fail हुए।
+उम्मीद थी सिर्फ पच्चीस percent।
+तो सवाल बनता है। और उन्हें जवाब देने का option भी है।
+
+अब असली सवाल: अगला रुपया कहाँ लगे?
+MARG बचे हुए गड्ढों को risk के हिसाब से rank करता है:
+पानी भरना, traffic, और पास में hospital।
+Kurla में number one है एक cave-in।
+Road guarantee में है, तो BMC का खर्चा: zero।
+
+और ये सिर्फ dashboard नहीं है।
+Marathi में आई अधूरी complaint को MARG साफ करके सही job से जोड़ता है।
+Ward officer view खोलो,
+और Claude सबूत के साथ recovery notice draft कर देता है।
+
+एक road पर पैंतीस बार repair, normal नहीं है।
+MARG हर रुपये, हर road और हर contractor का हिसाब सामने रखता है।
+ताकि public का पैसा ऐसी roads बनाए जो सच में टिकें।
