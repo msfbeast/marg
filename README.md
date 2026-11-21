@@ -7,12 +7,11 @@ Road-repair assurance for city corporations. *Marg* is the Hindi and Marathi wor
 A Claude-powered accountability tool for Mumbai's monsoon road repairs, built for
 Claude Impact Lab Mumbai (21 Nov 2026) on the synthetic
 [Claude-Impact-Labs-data-2](https://github.com/SumeetGDoshi/Claude-Impact-Labs-data-2) dataset.
-All data is synthetic and every contractor is fictional.
+All data is synthetic and every contractor is fictional. MARG is not affiliated with BMC or its MyBMC MARG app.
 
 ## Run it
 
 ```bash
-git clone https://github.com/SumeetGDoshi/Claude-Impact-Labs-data-2 data   # the challenge dataset
 python3 -m venv .venv && .venv/bin/pip install pandas numpy scikit-learn shapely fastapi uvicorn anthropic
 echo 'ANTHROPIC_API_KEY=sk-ant-...' > .env            # never committed (.gitignore)
 echo 'MAPTILER_KEY=...' >> .env                     # optional: MapTiler Dataviz Dark basemap; falls back to OpenFreeMap
