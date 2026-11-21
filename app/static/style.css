@@ -419,4 +419,5 @@ input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner
   .dock { overflow-x: auto; }
   .tabs { -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent); mask-image: linear-gradient(90deg, #000 88%, transparent); }
   .tabs button { padding: 7px 9px; }
+  .synthetic { height: auto; padding: 8px 12px; line-height: 1.4; }
 }
