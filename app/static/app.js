@@ -337,6 +337,7 @@ function markSel(coord) {
 /* ------------------------------------------------------------------ render */
 function render() {
   $$("#tabs button").forEach((b) => b.classList.toggle("on", b.dataset.tab === S.tab));
+  if (window.innerWidth <= 640) { const t = $("#tabs"), on = $("#tabs .on"); if (t && on) t.scrollTo({ left: on.offsetLeft - (t.clientWidth - on.offsetWidth) / 2, behavior: "smooth" }); }
   syncHash();
   const R = { trail: railTrail, audit: railAudit, cards: railCards, plan: railPlan, ask: railAsk }[S.tab];
   $("#rail").innerHTML = "";
@@ -959,3 +960,9 @@ function rail(html) { $("#rail").insertAdjacentHTML("beforeend", html); }
 window.addEventListener("resize", () => mapReady && map.resize());
 
 boot();
+
+/* phone: the scorecard overlay sits under the (taller, wrapped) header */
+function setTopH() { const t = document.querySelector(".top"); if (t) document.documentElement.style.setProperty("--toph", t.offsetHeight + "px"); }
+window.addEventListener("resize", setTopH);
+window.addEventListener("load", setTopH);
+setTimeout(setTopH, 0);
